@@ -5,6 +5,7 @@
   "dependencies": {
     "babel-loader": "8.2.2",
     "babel-plugin-styled-components": "1.12.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-feather": "2.0.9",
@@ -18,7 +19,8 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "plugins": ["jsx-a11y"]
   },
   "browserslist": {
     "production": [
